@@ -1,0 +1,95 @@
+body { 
+    background-color: #BD7E3E;
+    text-align: center;
+}
+
+#fc    
+     {
+      border-style:solid;
+      border-color:#689F38
+      border : 1px 
+      border-radius: 80px;
+      padding : 5px;
+      width : 100px;
+    }
+
+#wt 
+{
+    border-style:solid;
+    border-color:#689F38
+    border: 1px 
+    border-radius: 80px;
+    padding: 5px;
+    width: 100px;
+}
+
+ {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+  {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .carousel-container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .carousel-item {
+    width: 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5%;
+    cursor: pointer;
+    font-size: 24px;
+    border: none;
+    background: none;
+    color: black; /* Color de las flechas */
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+  #content {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #copyButton {
+    padding: 10px;
+    cursor: pointer;
+  }
